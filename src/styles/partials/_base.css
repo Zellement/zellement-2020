@@ -1,6 +1,7 @@
 body, html {
 	/* Force vertical scroll bar, prevent shifting content, works best on Windows */
 	min-height: 101%;
+	@apply antialiased bg-tapa-900 text-tapa-200 font-base;
 }
 
 a {

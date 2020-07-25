@@ -1,8 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby x Tailwind x Framer Motion`,
-    description: `An opinionated starter for Gatsby v2 with TailwindCSS, PostCSS and Framer Motion page transitions.`,
-    author: `@samuelgoddard`,
+    title: "Zellement.com",
+    titleTemplate: "%s · Web Developer Nottingham",
+    author: `@Zellement`,
+    description:
+      "Online presence of Dan Farrow - Web Designer & Web Developer",
+    url: "https://www.zellement.com", // No trailing slash allowed!
+    twitterUsername: "@Zellement",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,10 +26,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#141210`,
+        theme_color: `#b5aba2`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
     },
   ],
