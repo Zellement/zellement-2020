@@ -41,7 +41,7 @@ const Layout = ({ children, location }) => {
 
   return (
     <>
-      <div class="md:flex md:flex-row md:justify-between">
+      <div className="md:flex md:flex-row md:justify-between">
         <Header siteTitle={data.site.siteMetadata.title} />
         <AnimatePresence>
           <motion.main
@@ -50,7 +50,7 @@ const Layout = ({ children, location }) => {
             initial="initial"
             animate="enter"
             exit="exit"
-            className="md:w-2/3"
+            className="md:w-3/4"
           >
             {children}
           </motion.main>

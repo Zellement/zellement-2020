@@ -8,7 +8,7 @@ const Logo = () => (
       title="Go home"
     >
       <svg
-        className="block w-8 h-8 mx-4 mt-4 fill-current text-tapa-400 hover:opacity-75"
+        className="block w-8 h-8 mx-4 mt-4 transition fill-current text-empress-700 hover:text-orange-500"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
