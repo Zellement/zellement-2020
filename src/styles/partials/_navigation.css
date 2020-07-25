@@ -3,7 +3,7 @@ Navigation
 -------------------------- */
 
 .navigation-wrapper {
-  @apply fixed top-0 left-0 z-10 w-full h-screen p-6 text-lg tracking-widest uppercase transition-all duration-100 ease-in bg-opacity-75 backdrop-blur text-empress-900;
+  @apply fixed top-0 left-0 z-10 z-30 w-full h-screen p-6 text-lg tracking-widest uppercase transition-all duration-100 ease-in bg-opacity-75 backdrop-blur text-empress-900;
 
   transform: translateY(-100%);
 
@@ -21,7 +21,7 @@ Navigation
 
 .navigation-button {
   padding: 15px;
-  @apply fixed top-0 right-0 z-10 block w-12 h-12 mt-1 mr-1 cursor-pointer;
+  @apply fixed top-0 right-0 z-40 block w-12 h-12 mt-1 mr-1 cursor-pointer;
 
   @screen md {
     @apply hidden;
