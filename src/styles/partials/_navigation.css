@@ -81,6 +81,10 @@ Navigation
   @apply self-end inline-block px-1 py-1 text-empress-700 font-heading;
 }
 
+.navigation-wrapper__link.is-active {
+  @apply border-empress-300 text-empress-400;
+}
+
 @screen md {
   .navigation-wrapper__link {
     @apply pl-2 pr-4 transition-all duration-300 bg-left border-r-2 text-empress-700 border-empress-200;

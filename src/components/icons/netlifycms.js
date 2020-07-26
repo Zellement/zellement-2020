@@ -10,7 +10,7 @@ const IconNetlifyCMS = () => {
       href="https://www.netlifycms.org/"
     >
       <svg
-        viewBox="0 0 35 35"
+        viewBox="0 0 42 42"
         xmlns="http://www.w3.org/2000/svg"
         className="w-8 h-8 fill-current text-empress-600"
       >
