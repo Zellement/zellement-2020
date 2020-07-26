@@ -2,6 +2,12 @@ body, html {
 	@apply antialiased bg-empress-200 text-empress-900 font-base;
 }
 
+@screen md {
+	body, html {
+		@apply overflow-hidden;
+	}
+}
+
 a {
 	@apply transition duration-300;
 }

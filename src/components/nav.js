@@ -36,7 +36,7 @@ const Nav = class extends React.Component {
                   className="navigation-wrapper__link"
                   onClick={this.toggleMenu}
                   activeClassName="is-active"
-                  to="/"
+                  to="/developer"
                 >
                   Developer
                 </Link>
@@ -82,11 +82,15 @@ const Nav = class extends React.Component {
                 </Link>
               </li>
             </ul>
-        <Social />
+            <Social />
           </div>
           <div
+            aria-label="Navigation menu button"
+            tabIndex={0}
+            role="button"
             className={`${burgerActive} navigation-button`}
             onClick={this.toggleMenu}
+            onKeyDown={this.toggleMenu}
           >
             <div className={`navigation-button__inside ${burgerActive}`}>
               <span className="left-0 navigation-button__lines navigation-button__line-1"></span>
