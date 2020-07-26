@@ -17,6 +17,14 @@ module.exports = {
       blur: "blur(20px)",
     },
     extend: {
+      height: {
+        '50vh': "50vh",
+        '60vh': "60vh",
+        '70vh': "70vh",
+        '80vh': "80vh",
+        '90vh': "90vh",
+        '95vh': "95vh",
+      },
       colors: {
         empress: {
           100: "#F2F1F1",
@@ -66,5 +74,8 @@ module.exports = {
   corePlugins: {
     container: false,
   },
-  plugins: [require("tailwindcss-filters"), require("tailwindcss-gradients")],
+  plugins: [
+    require("tailwindcss-filters"),
+  require("tailwindcss-gradients"),
+  require('tailwindcss-blend-mode')()],
 }

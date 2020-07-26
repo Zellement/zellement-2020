@@ -50,7 +50,7 @@ const Layout = ({ children, location }) => {
             initial="initial"
             animate="enter"
             exit="exit"
-            className="p-4 md:w-3/4"
+            className="md:w-3/4 force-vert"
           >
             {children}
           </motion.main>

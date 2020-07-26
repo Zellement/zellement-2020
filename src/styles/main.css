@@ -15,3 +15,7 @@
 
 /* Tailwind Utils */
 @import 'tailwindcss/utilities';
+
+.force-vert {
+	min-height: 101%;
+}

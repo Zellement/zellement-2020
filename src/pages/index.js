@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from 'gatsby'
 import SEO from "../components/seo"
 import { motion } from "framer-motion"
 import Image from "gatsby-image"
@@ -31,26 +32,26 @@ const IndexPage = (props) => {
         variants={container}
         initial="hidden"
         animate="visible"
-        className=""
+        className="bg-empress-300"
       >
         <div className="flex flex-col lg:flex-row">
           <motion.div
-            className="w-full max-w-md max-h-screen mx-auto lg:w-1/2 lg:h-screen"
+            className="w-full max-h-screen mx-auto h-80vh lg:w-3/4 lg:h-screen"
             variants={item}
             transition="easeInOut"
           >
             <Image
-              className="object-cover w-full h-full shadow-xl"
-              fluid={props.data.meOne.childImageSharp.fluid}
+              className="object-cover w-full h-full"
+              fluid={props.data.meFour.childImageSharp.fluid}
               backgroundColor={`#040e18`}
             />
           </motion.div>
           <motion.div
-            className="z-10 flex w-11/12 p-8 mx-auto mb-4 -mt-32 shadow-lg bg-empress-200 bg-gradient-br-empress-100 lg:w-1/2 lg:my-8 lg:-ml-8"
+            className="z-10 flex w-11/12 max-w-md p-8 mx-auto mb-4 -mt-32 shadow-lg bg-empress-200 bg-gradient-br-empress-100 md:-mt-48 lg:w-1/2 lg:my-8 lg:-ml-24 lg:my-auto lg:p-16"
             variants={item}
             transition="easeInOut"
           >
-            <div className="m-auto">
+            <div className="m-auto lg:m-0">
               <h1 className="m-0 text-6xl leading-none text-grey-light right-2 top-6 lg:right-5">
                 Hello.
               </h1>
@@ -152,7 +153,19 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    meOne: file(relativePath: { eq: "me-02.jpg" }) {
+    meOne: file(relativePath: { eq: "me-01.jpg" }) {
+      ...fluidImageHome
+    }
+    meTwo: file(relativePath: { eq: "me-02.jpg" }) {
+      ...fluidImageHome
+    }
+    meThree: file(relativePath: { eq: "me-03.jpg" }) {
+      ...fluidImageHome
+    }
+    meFour: file(relativePath: { eq: "me-04.jpg" }) {
+      ...fluidImageHome
+    }
+    meFive: file(relativePath: { eq: "me-05.jpg" }) {
       ...fluidImageHome
     }
   }
