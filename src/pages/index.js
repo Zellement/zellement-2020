@@ -32,7 +32,7 @@ const IndexPage = (props) => {
         variants={container}
         initial="hidden"
         animate="visible"
-        className="h-screen overflow-y-auto bg-empress-300 custom-scroll"
+        className="md:h-screen md:overflow-y-auto bg-empress-300 custom-scroll"
       >
         <div className="flex flex-col lg:flex-row">
           <motion.div

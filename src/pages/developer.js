@@ -45,11 +45,14 @@ const IndexPage = (props) => {
         variants={container}
         initial="hidden"
         animate="visible"
-        className="h-screen p-8 overflow-y-auto bg-empress-200 bg-gradient-r-empress-100 custom-scroll lg:p-16"
+        className="p-8 md:h-screen md:overflow-y-auto bg-empress-200 bg-gradient-r-empress-100 custom-scroll lg:p-16"
       >
         <motion.div variants={item} transition="easeInOut">
           <p className="text-xs tracking-widest uppercase font-color-font">
-            <Link className="hover:text-orange-500" to="/">Dan Farrow</Link> &raquo; Developer
+            <Link className="hover:text-orange-500" to="/">
+              Dan Farrow
+            </Link>{" "}
+            &raquo; Developer
           </p>
           <h1 className="mb-8 text-5xl text-grey-light">Developer.</h1>
           <p className="py-3 text-lg">
