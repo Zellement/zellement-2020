@@ -12,7 +12,7 @@ const DevelopmentWork = ({
   children,
 }) => {
   return (
-    <div className={"border-b border-empress-300 pb-8 max-w-3xl mb-6 " + devClasses}>
+    <div className={"pb-8 max-w-3xl mb-6 " + devClasses}>
       <div className="flex flex-col items-stretch justify-between max-w-3xl lg:flex-row lg:flex-wrap w-100">
         <div>
           <h3 className="mt-2 mb-1 text-2xl">{devTitle}</h3>

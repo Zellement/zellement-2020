@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import { motion } from "framer-motion"
 import { Link } from "gatsby"
 
-import DevelopmentWork from "../components/work-development.js"
+import Project from "../components/project.js"
 
 import IconDesigner from "../components/icons/designer.js"
 import IconGatsbyJS from "../components/icons/gatsbyjs.js"
@@ -72,7 +72,7 @@ const IndexPage = (props) => {
         </motion.div>
 
         <motion.div variants={item} transition="easeInOut">
-          <DevelopmentWork
+          <Project
             devTitle="Effico Ltd"
             devURL="https://www.effico.ltd"
             devDisplayURL="www.effico.ltd"
@@ -85,11 +85,11 @@ const IndexPage = (props) => {
             <IconGraphQL />
             <IconTailwind />
             <IconNetlify />
-          </DevelopmentWork>
+          </Project>
         </motion.div>
 
         <motion.div variants={item} transition="easeInOut">
-          <DevelopmentWork
+          <Project
             devTitle="Sheringham Flooring"
             devURL="https://www.sheringhamflooring.com"
             devDisplayURL="www.sheringhamflooring.com"
@@ -102,11 +102,11 @@ const IndexPage = (props) => {
             <IconGraphQL />
             <IconTailwind />
             <IconNetlify />
-          </DevelopmentWork>
+          </Project>
         </motion.div>
 
         <motion.div variants={item} transition="easeInOut">
-          <DevelopmentWork
+          <Project
             devTitle="Formula One Gym"
             devURL="https://www.formulaonegym.co.uk"
             devDisplayURL="www.formulaonegym.co.uk"
@@ -119,11 +119,11 @@ const IndexPage = (props) => {
             <IconGraphQL />
             <IconTailwind />
             <IconNetlify />
-          </DevelopmentWork>
+          </Project>
         </motion.div>
 
         <motion.div variants={item} transition="easeInOut">
-          <DevelopmentWork
+          <Project
             devTitle="Sheringham Shantymen"
             devURL="https://www.shantymen.com"
             devDisplayURL="www.shantymen.com"
@@ -136,11 +136,11 @@ const IndexPage = (props) => {
             <IconGraphQL />
             <IconSass />
             <IconNetlify />
-          </DevelopmentWork>
+          </Project>
         </motion.div>
 
         <motion.div variants={item} transition="easeInOut">
-          <DevelopmentWork
+          <Project
             devTitle="Arcadia Physiotherapy"
             devURL="https://www.arcadia-therapy.com"
             devDisplayURL="www.arcadia-therapy.com"
@@ -150,11 +150,11 @@ const IndexPage = (props) => {
             <IconDesigner />
             <IconWordPress />
             <IconSass />
-          </DevelopmentWork>
+          </Project>
         </motion.div>
 
         <motion.div variants={item} transition="easeInOut">
-          <DevelopmentWork
+          <Project
             devTitle="The Body Art Academy"
             devURL="https://www.thebodyartacademy.com/"
             devDisplayURL="www.thebodyartacademy.com"
@@ -165,11 +165,11 @@ const IndexPage = (props) => {
             <IconWordPress />
             <IconSass />
             <IconcPanel />
-          </DevelopmentWork>
+          </Project>
         </motion.div>
 
         <motion.div variants={item} transition="easeInOut">
-          <DevelopmentWork
+          <Project
             devTitle="Burntwood Group"
             devURL="https://www.burntwoodgroup.com/"
             devDisplayURL="www.burntwoodgroup.com"
@@ -180,11 +180,11 @@ const IndexPage = (props) => {
             <IconWordPress />
             <IconSass />
             <IconcPanel />
-          </DevelopmentWork>
+          </Project>
         </motion.div>
 
         <motion.div variants={item} transition="easeInOut">
-          <DevelopmentWork
+          <Project
             devTitle="Sheringham Lifeboat"
             devURL="https://www.sheringhamlifeboat.co.uk/"
             devDisplayURL="www.sheringhamlifeboat.co.uk"
@@ -195,7 +195,7 @@ const IndexPage = (props) => {
             <IconWordPress />
             <IconSass />
             <IconcPanel />
-          </DevelopmentWork>
+          </Project>
         </motion.div>
       </motion.section>
     </>

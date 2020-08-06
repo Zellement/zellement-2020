@@ -46,7 +46,7 @@ const Nav = class extends React.Component {
                   className="navigation-wrapper__link"
                   onClick={this.toggleMenu}
                   activeClassName="is-active"
-                  to="/"
+                  to="/designer"
                 >
                   Designer
                 </Link>
