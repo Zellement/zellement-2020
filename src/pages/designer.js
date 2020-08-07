@@ -43,7 +43,7 @@ const IndexPage = (props) => {
         className="p-8 md:h-screen md:overflow-y-auto bg-empress-200 bg-gradient-r-empress-100 custom-scroll lg:p-16"
       >
         <motion.div variants={item} transition="easeInOut">
-          <p className="text-xs tracking-widest uppercase font-color-font">
+          <p className="text-xs tracking-widest uppercase">
             <Link className="hover:text-orange-500" to="/">
               Dan Farrow
             </Link>{" "}
