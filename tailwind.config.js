@@ -12,18 +12,17 @@ module.exports = {
     },
     linearGradientColors: (theme) => theme("colors"),
     backdropFilter: {
-      // defaults to {}
       none: "none",
       blur: "blur(20px)",
     },
     extend: {
       height: {
-        '50vh': "50vh",
-        '60vh': "60vh",
-        '70vh': "70vh",
-        '80vh': "80vh",
-        '90vh': "90vh",
-        '95vh': "95vh",
+        "50vh": "50vh",
+        "60vh": "60vh",
+        "70vh": "70vh",
+        "80vh": "80vh",
+        "90vh": "90vh",
+        "95vh": "95vh",
       },
       colors: {
         empress: {
@@ -37,30 +36,14 @@ module.exports = {
           800: "#393333",
           900: "#262222",
         },
-        // tapa: {
-        //   100: "#F2F2F1",
-        //   200: "#DEDDDC",
-        //   300: "#CBC9C7",
-        //   400: "#A3A19E",
-        //   500: "#7C7874",
-        //   600: "#706C68",
-        //   700: "#4A4846",
-        //   800: "#383634",
-        //   900: "#252423",
-        // },
-        // brown: {
-        //   feint: "#b5aba2",
-        //   light: "#635d57",
-        //   default: "#1A1918",
-        //   dark: "#141210",
-        //   "default-50": "rgba(26, 25, 24, 0.5)",
-        //   "default-80": "rgba(26, 25, 24, 0.8)",
-        // },
-        // grey: {
-        //   light: "#eee",
-        //   default: "#9F9F9F",
-        // },
-        // lightgrey: "#9F9F9F",
+      },
+      maxWidth: (theme) => ({
+        ...theme("spacing"),
+        ...theme("screens"),
+      }),
+      screens: {
+        "2xl": "1530px",
+        "3xl": "1800px",
       },
       spacing: {
         "96": "24rem",
@@ -76,6 +59,7 @@ module.exports = {
   },
   plugins: [
     require("tailwindcss-filters"),
-  require("tailwindcss-gradients"),
-  require('tailwindcss-blend-mode')()],
+    require("tailwindcss-gradients"),
+    require("tailwindcss-blend-mode")(),
+  ],
 }

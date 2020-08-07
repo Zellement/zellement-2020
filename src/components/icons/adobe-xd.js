@@ -1,10 +1,10 @@
 import React from "react"
 
-const IconAdobeXD = () => {
+const IconAdobeXD = ( {className} ) => {
   return (
     <a
       aria-label="Visit www.adobe.com/uk/products/xd.html"
-      className="self-center ml-2"
+      className={"self-center w-8 h-8 ml-2 transform hover:-translate-y-1 hover:scale-105 " + className}
       target="_blank"
       rel="noopener noreferrer"
       href="https://www.adobe.com/uk/products/xd.html/"

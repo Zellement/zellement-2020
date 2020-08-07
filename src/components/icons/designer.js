@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const IconDesigner = () => {
+const IconDesigner = ( {className} ) => {
   return (
     <Link
       aria-label="Visit the Developer page"
-      className="w-8 h-8 ml-2"
+      className={"self-center w-8 h-8 ml-2 transform hover:-translate-y-1 hover:scale-105 " + className}
       activeClassName="active"
       to="/designer"
     >

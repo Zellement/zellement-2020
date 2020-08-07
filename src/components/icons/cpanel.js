@@ -1,10 +1,10 @@
 import React from "react"
 
-const IconcPanel = () => {
+const IconcPanel = ( {className} ) => {
   return (
     <a
       aria-label="Visit cpanel.net"
-      className="self-center ml-2"
+      className={"self-center w-8 h-8 ml-2 transform hover:-translate-y-1 hover:scale-105 " + className}
       target="_blank"
       rel="noopener noreferrer"
       href="https://cpanel.net/"

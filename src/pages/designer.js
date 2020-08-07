@@ -76,12 +76,12 @@ Effico
         <motion.div
           variants={item}
           transition="easeInOut"
-          className="max-w-3xl pb-16 mb-12 border-b border-orange-600"
+          className="max-w-lg pb-16 mb-12 border-b border-orange-600"
         >
           <Project
             devTitle="Effico Ltd"
             devURL="https://www.effico.ltd/"
-            devDisplayURL="www.effico"
+            devDisplayURL="www.effico.ltd"
             date="May 2020"
             devDescription="With no current website, Effico Ltd needed a digital online presence. A website was made that was designed to attract both domestic and commercial customers, all designed with conversion and SEO in mind."
           >
@@ -109,7 +109,7 @@ Effico
         <motion.div
           variants={item}
           transition="easeInOut"
-          className="max-w-3xl pb-16 mb-12 border-b border-orange-600"
+          className="max-w-lg pb-16 mb-12 border-b border-orange-600"
         >
           <Project
             devTitle="Sheringham Flooring"
@@ -122,9 +122,9 @@ Effico
             <IconFigma />
           </Project>
 
-          <div className="relative max-w-3xl absolute-image-wrapper">
+          <div className="relative max-w-md absolute-image-wrapper">
             <Img
-              className="top-0 left-0 z-0 max-w-3xl shadow-lg absolute-image"
+              className="top-0 left-0 z-0 shadow-lg absolute-image"
               fluid={props.data.sherFloorBefore.childImageSharp.fluid}
             />
 
@@ -134,7 +134,7 @@ Effico
 
             <ImageShowHide>
               <Img
-                className="top-0 left-0 z-10 max-w-3xl absolute-image"
+                className="top-0 left-0 z-10 absolute-image"
                 fluid={props.data.sherFloorAfter.childImageSharp.fluid}
               />
 
@@ -150,7 +150,7 @@ Effico
           />
 
           <Img
-            className="mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-lg xl:-mt-36"
+            className="mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-sm xl:-mt-36"
             fluid={props.data.sherFloorTwo.childImageSharp.fluid}
           />
         </motion.div>
@@ -164,7 +164,7 @@ Effico
         <motion.div
           variants={item}
           transition="easeInOut"
-          className="max-w-3xl pb-16 mb-12 border-b border-orange-600"
+          className="max-w-lg pb-16 mb-12 border-b border-orange-600"
         >
           <Project
             devTitle="Formula One Gym"
@@ -177,9 +177,9 @@ Effico
             <IconFigma />
           </Project>
 
-          <div className="relative max-w-3xl absolute-image-wrapper">
+          <div className="relative max-w-md absolute-image-wrapper">
             <Img
-              className="top-0 left-0 z-0 max-w-3xl shadow-lg absolute-image"
+              className="top-0 left-0 z-0 shadow-lg absolute-image"
               fluid={props.data.f1Before.childImageSharp.fluid}
             />
 
@@ -189,7 +189,7 @@ Effico
 
             <ImageShowHide>
               <Img
-                className="top-0 left-0 z-10 max-w-3xl absolute-image"
+                className="top-0 left-0 z-10 absolute-image"
                 fluid={props.data.f1After.childImageSharp.fluid}
               />
 
@@ -205,7 +205,7 @@ Effico
           />
 
           <Img
-            className="mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-lg xl:-mt-36"
+            className="mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-36"
             fluid={props.data.f1Two.childImageSharp.fluid}
           />
         </motion.div>
@@ -219,7 +219,7 @@ Effico
         <motion.div
           variants={item}
           transition="easeInOut"
-          className="max-w-3xl pb-16 mb-12 border-b border-orange-600"
+          className="max-w-lg pb-16 mb-12 border-b border-orange-600"
         >
           <Project
             devTitle="Sheringham Shantymen"
@@ -232,9 +232,9 @@ Effico
             <IconAdobeXD />
           </Project>
 
-          <div className="relative max-w-3xl absolute-image-wrapper">
+          <div className="relative max-w-md absolute-image-wrapper">
             <Img
-              className="top-0 left-0 z-0 max-w-3xl shadow-lg absolute-image"
+              className="top-0 left-0 z-0 shadow-lg absolute-image"
               fluid={props.data.shantymenBefore.childImageSharp.fluid}
             />
 
@@ -244,7 +244,7 @@ Effico
 
             <ImageShowHide>
               <Img
-                className="top-0 left-0 z-10 max-w-3xl absolute-image"
+                className="top-0 left-0 z-10 absolute-image"
                 fluid={props.data.shantymenAfter.childImageSharp.fluid}
               />
 
@@ -255,12 +255,12 @@ Effico
           </div>
 
           <Img
-            className="mx-auto mt-4 shadow-lg md:mr-0 md:ml-auto md:max-w-xl lg:max-w-md xl:max-w-xl"
+            className="mx-auto mt-4 shadow-lg md:mr-0 md:ml-auto md:max-w-lg lg:max-w-md xl:max-w-md"
             fluid={props.data.shantymenOne.childImageSharp.fluid}
           />
 
           <Img
-            className="mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56"
+            className="mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-md"
             fluid={props.data.shantymenTwo.childImageSharp.fluid}
           />
         </motion.div>
@@ -274,7 +274,7 @@ Effico
         <motion.div
           variants={item}
           transition="easeInOut"
-          className="max-w-3xl pb-16 mb-12 border-b border-orange-600"
+          className="max-w-lg pb-16 mb-12 border-b border-orange-600"
         >
           <Project
             devTitle="Arcadia Physiotherapy"
@@ -287,9 +287,9 @@ Effico
             <IconPhotoshop />
           </Project>
 
-          <div className="relative max-w-3xl absolute-image-wrapper">
+          <div className="relative max-w-md absolute-image-wrapper">
             <Img
-              className="top-0 left-0 z-0 max-w-3xl shadow-lg absolute-image"
+              className="top-0 left-0 z-0 shadow-lg absolute-image"
               fluid={props.data.arcadiaBefore.childImageSharp.fluid}
             />
 
@@ -299,7 +299,7 @@ Effico
 
             <ImageShowHide>
               <Img
-                className="top-0 left-0 z-10 max-w-3xl absolute-image"
+                className="top-0 left-0 z-10 absolute-image"
                 fluid={props.data.arcadiaAfter.childImageSharp.fluid}
               />
 
@@ -310,12 +310,12 @@ Effico
           </div>
 
           <Img
-            className="mx-auto mt-4 shadow-lg md:mr-0 md:ml-auto md:max-w-xl lg:max-w-md xl:max-w-xl"
+            className="mx-auto mt-4 shadow-lg md:mr-0 md:ml-auto md:max-w-xl lg:max-w-md xl:max-w-md"
             fluid={props.data.arcadiaOne.childImageSharp.fluid}
           />
 
           <Img
-            className="mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56"
+            className="mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-20"
             fluid={props.data.arcadiaTwo.childImageSharp.fluid}
           />
         </motion.div>
@@ -329,7 +329,7 @@ Effico
         <motion.div
           variants={item}
           transition="easeInOut"
-          className="max-w-3xl pb-16 mb-12 border-b border-orange-600"
+          className="max-w-lg pb-16 mb-12 border-b border-orange-600"
         >
           <Project
             devTitle="The Body Art Academy"
@@ -348,12 +348,12 @@ Effico
           />
 
           <Img
-            className="pb-8 mx-auto shadow-lg md:mr-0 md:ml-auto md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56"
+            className="pb-8 mx-auto shadow-lg md:mr-0 md:ml-auto md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-32"
             fluid={props.data.tbaaTwo.childImageSharp.fluid}
           />
 
           <Img
-            className="pb-8 mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-sm xl:-mt-40"
+            className="pb-8 mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-sm xl:-mt-20"
             fluid={props.data.tbaaThree.childImageSharp.fluid}
           />
         </motion.div>
@@ -367,7 +367,7 @@ Effico
         <motion.div
           variants={item}
           transition="easeInOut"
-          className="max-w-3xl pb-16 mb-12 border-b border-orange-600"
+          className="max-w-lg pb-16 mb-12 border-b border-orange-600"
         >
           <Project
             devTitle="Sheringham Lifeboat"
@@ -380,9 +380,9 @@ Effico
             <IconPhotoshop />
           </Project>
 
-          <div className="relative max-w-3xl absolute-image-wrapper">
+          <div className="relative max-w-md absolute-image-wrapper">
             <Img
-              className="top-0 left-0 z-0 max-w-3xl shadow-lg absolute-image"
+              className="top-0 left-0 z-0 shadow-lg absolute-image"
               fluid={props.data.sheringhamlifeboatBefore.childImageSharp.fluid}
             />
 
@@ -392,7 +392,7 @@ Effico
 
             <ImageShowHide>
               <Img
-                className="top-0 left-0 z-10 max-w-3xl absolute-image"
+                className="top-0 left-0 z-10 absolute-image"
                 fluid={props.data.sheringhamlifeboatAfter.childImageSharp.fluid}
               />
 

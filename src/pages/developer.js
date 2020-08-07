@@ -13,8 +13,10 @@ import IconSass from "../components/icons/sass.js"
 import IconNetlify from "../components/icons/netlify.js"
 import IconNetlifyCMS from "../components/icons/netlifycms.js"
 import IconTailwind from "../components/icons/tailwind.js"
+import IconTimber from "../components/icons/timber.js"
 import IconWordPress from "../components/icons/wordpress.js"
 import IconPrismic from "../components/icons/prismic.js"
+import IconDeployHQ from "../components/icons/deployhq.js"
 import IconDatoCMS from "../components/icons/datocms.js"
 import IconcPanel from "../components/icons/cpanel.js"
 
@@ -55,23 +57,50 @@ const IndexPage = (props) => {
             &raquo; Developer
           </p>
           <h1 className="mb-8 text-5xl text-grey-light">Developer.</h1>
-          <p className="py-3 text-lg">
-            I have over {new Date().getFullYear() - 2007} years of experience
-            working in a leading digital marketing and web design company based
-            in Nottingham, UK, and I've been lucky to have the chance to work on
-            a multitude of languages, platforms and frameworks.
-          </p>
-          <p className="pb-3 text-md">
-            In recent years, I have worked predominantly as a WordPress
-            developer, but I have recently been using newer technologies such as
-            GatsbyJS to deliver headless CMS websites.
-          </p>
+          <motion.div className="flex flex-col md:flex-row">
+            <div className="md:w-2/3 xl:w-3/4 md:pr-8">
+            <p className="py-3 text-lg">
+              I have over {new Date().getFullYear() - 2007} years of experience
+              working in a leading digital marketing and web design company based
+              in Nottingham, UK, and I've been lucky to have the chance to work on
+              a multitude of languages, platforms and frameworks.
+            </p>
+            <p className="pb-3 text-md">
+              In recent years, I have worked predominantly as a WordPress
+              developer, but I have recently been using newer technologies such as
+              GatsbyJS to deliver headless CMS websites.
+            </p>
+            </div>
+            <div className="bg-gradient-r-empress-100 md:bg-none md:border-l md:border-empress-200 p-4 text-right md:w-1/3 md:text-center xl:w-1/4">
+              <p className="text-xs tracking-widest uppercase font-color-font">Experience With</p>
+
+                <div className="flex mt-4 flex-row-reverse flex-wrap md:flex-row md:justify-center">
+                <IconGatsbyJS className="m-2" />
+                <IconWordPress className="m-2" />
+                
+                <IconDatoCMS className="m-2" />
+                <IconPrismic className="m-2" />
+                <IconNetlifyCMS className="m-2" />
+
+                <IconGraphQL className="m-2" />
+
+                <IconTailwind className="m-2" />
+                <IconSass className="m-2" />
+                <IconTimber className="m-2" />
+                <IconDeployHQ className="m-2" />
+                
+                <IconNetlify className="m-2" />
+                <IconcPanel className="m-2" />
+                </div>
+
+            </div>
+          </motion.div>
           <h2 className="mt-4 mb-4 text-3xl text-grey-light">
             Development Work
           </h2>
         </motion.div>
 
-        <motion.div variants={item} transition="easeInOut">
+        <motion.div variants={item} transition="easeInOut" className="max-w-lg pb-8 mb-4 border-b border-orange-600">
           <Project
             devTitle="Effico Ltd"
             devURL="https://www.effico.ltd"
@@ -88,7 +117,7 @@ const IndexPage = (props) => {
           </Project>
         </motion.div>
 
-        <motion.div variants={item} transition="easeInOut">
+        <motion.div variants={item} transition="easeInOut" className="max-w-lg pb-8 mb-4 border-b border-orange-600">
           <Project
             devTitle="Sheringham Flooring"
             devURL="https://www.sheringhamflooring.com"
@@ -105,7 +134,7 @@ const IndexPage = (props) => {
           </Project>
         </motion.div>
 
-        <motion.div variants={item} transition="easeInOut">
+        <motion.div variants={item} transition="easeInOut" className="max-w-lg pb-8 mb-4 border-b border-orange-600">
           <Project
             devTitle="Formula One Gym"
             devURL="https://www.formulaonegym.co.uk"
@@ -122,7 +151,7 @@ const IndexPage = (props) => {
           </Project>
         </motion.div>
 
-        <motion.div variants={item} transition="easeInOut">
+        <motion.div variants={item} transition="easeInOut" className="max-w-lg pb-8 mb-4 border-b border-orange-600">
           <Project
             devTitle="Sheringham Shantymen"
             devURL="https://www.shantymen.com"
@@ -139,7 +168,7 @@ const IndexPage = (props) => {
           </Project>
         </motion.div>
 
-        <motion.div variants={item} transition="easeInOut">
+        <motion.div variants={item} transition="easeInOut" className="max-w-lg pb-8 mb-4 border-b border-orange-600">
           <Project
             devTitle="Arcadia Physiotherapy"
             devURL="https://www.arcadia-therapy.com"
@@ -153,7 +182,7 @@ const IndexPage = (props) => {
           </Project>
         </motion.div>
 
-        <motion.div variants={item} transition="easeInOut">
+        <motion.div variants={item} transition="easeInOut" className="max-w-lg pb-8 mb-4 border-b border-orange-600">
           <Project
             devTitle="The Body Art Academy"
             devURL="https://www.thebodyartacademy.com/"
@@ -168,7 +197,7 @@ const IndexPage = (props) => {
           </Project>
         </motion.div>
 
-        <motion.div variants={item} transition="easeInOut">
+        <motion.div variants={item} transition="easeInOut" className="max-w-lg pb-8 mb-4 border-b border-orange-600">
           <Project
             devTitle="Burntwood Group"
             devURL="https://www.burntwoodgroup.com/"
@@ -183,7 +212,7 @@ const IndexPage = (props) => {
           </Project>
         </motion.div>
 
-        <motion.div variants={item} transition="easeInOut">
+        <motion.div variants={item} transition="easeInOut" className="max-w-lg pb-8 mb-4 border-b border-orange-600">
           <Project
             devTitle="Sheringham Lifeboat"
             devURL="https://www.sheringhamlifeboat.co.uk/"
