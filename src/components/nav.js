@@ -36,7 +36,7 @@ const Nav = class extends React.Component {
                   className="navigation-wrapper__link"
                   onClick={this.toggleMenu}
                   activeClassName="is-active"
-                  to="/developer"
+                  to="/developer/"
                 >
                   Developer
                 </Link>
@@ -46,7 +46,7 @@ const Nav = class extends React.Component {
                   className="navigation-wrapper__link"
                   onClick={this.toggleMenu}
                   activeClassName="is-active"
-                  to="/designer"
+                  to="/designer/"
                 >
                   Designer
                 </Link>
@@ -56,7 +56,7 @@ const Nav = class extends React.Component {
                   className="navigation-wrapper__link"
                   onClick={this.toggleMenu}
                   activeClassName="is-active"
-                  to="/manager"
+                  to="/manager/"
                 >
                   Manager
                 </Link>

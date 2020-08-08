@@ -32,11 +32,29 @@ const IndexPage = (props) => {
         variants={container}
         initial="hidden"
         animate="visible"
-        className="md:h-screen md:overflow-y-auto bg-empress-300 custom-scroll"
+        className="relative md:h-screen md:overflow-y-auto bg-empress-300 custom-scroll"
       >
-        <div className="flex flex-col lg:flex-row">
+        <div className="absolute bottom-0 left-0 z-40 w-24 mb-32 -ml-6 transform rotate-10 polaroid shadow-lg">
+          <Image
+            fluid={props.data.meFive.childImageSharp.fluid}
+            backgroundColor={`#040e18`}
+          />
+        </div>
+        <div className="absolute bottom-0 right-0 z-40 w-24 mb-40 -mr-2 transform -rotate-10 polaroid shadow-lg">
+          <Image
+            fluid={props.data.meSazOne.childImageSharp.fluid}
+            backgroundColor={`#040e18`}
+          />
+        </div>
+        <div className="absolute bottom-0 right-0 z-40 w-24 mb-10 -mr-2 transform rotate-5 polaroid shadow-lg">
+          <Image
+            fluid={props.data.meTwo.childImageSharp.fluid}
+            backgroundColor={`#040e18`}
+          />
+        </div>
+        <div className="relative flex flex-col overflow-x-hidden lg:flex-row">
           <motion.div
-            className="w-full max-h-screen mx-auto h-80vh lg:w-3/4 lg:h-screen"
+            className="relative w-full max-h-screen mx-auto h-80vh lg:w-3/4 lg:h-screen"
             variants={item}
             transition="easeInOut"
           >
@@ -166,6 +184,12 @@ export const pageQuery = graphql`
       ...fluidImageHome
     }
     meFive: file(relativePath: { eq: "me-05.jpg" }) {
+      ...fluidImageHome
+    }
+    meSix: file(relativePath: { eq: "me-06.jpg" }) {
+      ...fluidImageHome
+    }
+    meSazOne: file(relativePath: { eq: "me-saz-01.jpg" }) {
       ...fluidImageHome
     }
   }

@@ -16,6 +16,16 @@ module.exports = {
       blur: "blur(20px)",
     },
     extend: {
+      rotate: {
+        '5': '5deg',
+        '-5': '-5deg',
+        '10': '10deg',
+        '-10': '-10deg',
+        '15': '15deg',
+        '-15': '-15deg',
+        '20': '20deg',
+        '-20': '-20deg',
+      },
       height: {
         "50vh": "50vh",
         "60vh": "60vh",
@@ -48,6 +58,8 @@ module.exports = {
       spacing: {
         "96": "24rem",
         "128": "32rem",
+        "132": "36rem",
+        "140": "40rem",
       },
     },
   },
