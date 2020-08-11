@@ -206,8 +206,6 @@ const Page = (props) => {
             />
           </div>
 
-          {/*<h2 className="mt-4 mb-4 text-3xl text-grey-light">Cycling</h2>*/}
-
           <h2 className="mt-8 mb-4 text-3xl text-grey-light">Batman</h2>
 
           <p className="max-w-xl py-3 my-4">
@@ -259,6 +257,18 @@ const Page = (props) => {
             </a>{" "}
             movement.
           </p>
+          
+
+          <h2 className="mt-8 mb-4 text-3xl text-grey-light">Warhammer 40k</h2>
+
+          <p className="max-w-xl py-3 my-4">
+            My brother-in-law bought me my first Warhammer model a few years back to tempt me to get into the game. Although I have played a few games, I am more interested in the hobby side of modelling - the crafting and painting.</p>
+            
+          <Img
+            className="max-w-3xl shadow-lg w-100"
+            fluid={props.data.batmanOne.childImageSharp.fluid}
+          />
+
         </motion.div>
       </motion.section>
     </>
