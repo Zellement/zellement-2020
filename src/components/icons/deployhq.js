@@ -12,7 +12,7 @@ const DeployHQ = ( {className} ) => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 35.8 33.5"
-         enable-background="new 0 0 64 64"
+        enableBackground="new 0 0 64 64"
         className="w-8 h-8 fill-current text-empress-600"
       >
         <path fill="#8E51C7" d="M33.5,0c-3.1,0.2-8.8,0.7-11.4,2.1c-3.3,1.9-6.6,5.3-9.2,8.7l-5.3,0.6c-1,0.1-1.9,0.7-2.3,1.6l-1.2,2.7

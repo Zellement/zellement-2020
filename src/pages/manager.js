@@ -4,10 +4,8 @@ import SEO from "../components/seo"
 import { motion } from "framer-motion"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
-
 import XmasGif from "../images/manager/xmas-gif.gif"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
-
 import { GoHeart } from "react-icons/go"
 
 const duration = 0.35

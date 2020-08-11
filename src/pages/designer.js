@@ -42,7 +42,7 @@ const IndexPage = (props) => {
         animate="visible"
         className="p-8 bg-empress-200 bg-gradient-r-empress-100 lg:p-16"
       >
-        <motion.div variants={item} transition="easeInOut">
+        <motion.div variants={item} transition="easeInOut" className="max-w-lg">
           <p className="text-xs tracking-widest uppercase">
             <Link className="hover:text-orange-500" to="/">
               Dan Farrow
