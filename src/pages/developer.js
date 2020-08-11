@@ -47,7 +47,7 @@ const IndexPage = (props) => {
         variants={container}
         initial="hidden"
         animate="visible"
-        className="p-8 md:h-screen md:overflow-y-auto bg-empress-200 bg-gradient-r-empress-100 custom-scroll lg:p-16"
+        className="p-8 bg-empress-200 bg-gradient-r-empress-100 lg:p-16"
       >
         <motion.div variants={item} transition="easeInOut">
           <p className="text-xs tracking-widest uppercase">
@@ -71,10 +71,10 @@ const IndexPage = (props) => {
               GatsbyJS to deliver headless CMS websites.
             </p>
             </div>
-            <div className="bg-gradient-r-empress-100 md:bg-none md:border-l md:border-empress-200 p-4 text-right md:w-1/3 md:text-center xl:w-1/4">
+            <div className="p-4 text-right bg-gradient-r-empress-100 md:bg-none md:border-l md:border-empress-200 md:w-1/3 md:text-center xl:w-1/4">
               <p className="text-xs tracking-widest uppercase">Experience With</p>
 
-                <div className="flex mt-4 flex-row-reverse flex-wrap md:flex-row md:justify-center">
+                <div className="flex flex-row-reverse flex-wrap mt-4 md:flex-row md:justify-center">
                 <IconGatsbyJS className="m-2" />
                 <IconWordPress className="m-2" />
                 

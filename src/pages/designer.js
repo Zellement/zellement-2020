@@ -40,7 +40,7 @@ const IndexPage = (props) => {
         variants={container}
         initial="hidden"
         animate="visible"
-        className="p-8 md:h-screen md:overflow-y-auto bg-empress-200 bg-gradient-r-empress-100 custom-scroll lg:p-16"
+        className="p-8 bg-empress-200 bg-gradient-r-empress-100 lg:p-16"
       >
         <motion.div variants={item} transition="easeInOut">
           <p className="text-xs tracking-widest uppercase">
@@ -122,7 +122,7 @@ Effico
             <IconFigma />
           </Project>
 
-          <div className="relative max-w-md absolute-image-wrapper">
+          <div className="relative max-w-md mt-8 absolute-image-wrapper">
             <Img
               className="top-0 left-0 z-0 shadow-lg absolute-image"
               fluid={props.data.sherFloorBefore.childImageSharp.fluid}
@@ -177,7 +177,7 @@ Effico
             <IconFigma />
           </Project>
 
-          <div className="relative max-w-md absolute-image-wrapper">
+          <div className="relative max-w-md mt-8 absolute-image-wrapper">
             <Img
               className="top-0 left-0 z-0 shadow-lg absolute-image"
               fluid={props.data.f1Before.childImageSharp.fluid}
@@ -232,7 +232,7 @@ Effico
             <IconAdobeXD />
           </Project>
 
-          <div className="relative max-w-md absolute-image-wrapper">
+          <div className="relative max-w-md mt-8 absolute-image-wrapper">
             <Img
               className="top-0 left-0 z-0 shadow-lg absolute-image"
               fluid={props.data.shantymenBefore.childImageSharp.fluid}
@@ -287,7 +287,7 @@ Effico
             <IconPhotoshop />
           </Project>
 
-          <div className="relative max-w-md absolute-image-wrapper">
+          <div className="relative max-w-md mt-8 absolute-image-wrapper">
             <Img
               className="top-0 left-0 z-0 shadow-lg absolute-image"
               fluid={props.data.arcadiaBefore.childImageSharp.fluid}
@@ -380,7 +380,7 @@ Effico
             <IconPhotoshop />
           </Project>
 
-          <div className="relative max-w-md absolute-image-wrapper">
+          <div className="relative max-w-md mt-8 absolute-image-wrapper">
             <Img
               className="top-0 left-0 z-0 shadow-lg absolute-image"
               fluid={props.data.sheringhamlifeboatBefore.childImageSharp.fluid}

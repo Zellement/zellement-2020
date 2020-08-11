@@ -11,6 +11,8 @@ module.exports = {
       base: ["Roboto", "sans-serif"],
     },
     linearGradientColors: (theme) => theme("colors"),
+    radialGradientColors: theme => theme('colors'),
+    conicGradientColors: theme => theme('colors'),
     backdropFilter: {
       none: "none",
       blur: "blur(20px)",
@@ -35,6 +37,9 @@ module.exports = {
         "95vh": "95vh",
       },
       colors: {
+        yellow: {
+          "polaroid": '#e8e1cf'
+        },
         empress: {
           100: "#F2F1F1",
           200: "#DFDCDC",
@@ -46,6 +51,12 @@ module.exports = {
           800: "#393333",
           900: "#262222",
         },
+      },
+      inset: {
+        '1/2': "50%",
+        '3/4': "75%",
+        '1/3': "33.33333%",
+        '2/3': "66.66666%",
       },
       maxWidth: (theme) => ({
         ...theme("spacing"),

@@ -49,7 +49,7 @@ const Layout = ({ children, location }) => {
             initial="initial"
             animate="enter"
             exit="exit"
-            className="ml-auto md:h-screen md:overflow-hidden md:w-3/4"
+            className="min-h-screen ml-auto md:w-3/4"
           >
             {children}
           </motion.main>

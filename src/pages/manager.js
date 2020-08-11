@@ -37,7 +37,7 @@ const ManagerPage = (props) => {
         variants={container}
         initial="hidden"
         animate="visible"
-        className="p-8 md:h-screen md:overflow-y-auto bg-empress-200 bg-gradient-r-empress-100 custom-scroll lg:p-16"
+        className="p-8 bg-empress-200 bg-gradient-r-empress-100 lg:p-16"
       >
         <motion.div variants={item} transition="easeInOut" className="max-w-lg">
           <p className="text-xs tracking-widest uppercase">
