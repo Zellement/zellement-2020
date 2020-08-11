@@ -35,7 +35,7 @@ const item = {
 const IndexPage = (props) => {
   return (
     <>
-      <SEO title="WordPress Developer & Front-end Developer Nottingham" />
+      <SEO title="Web Designer Nottingham || Dan Farrow" />
       <motion.section
         variants={container}
         initial="hidden"

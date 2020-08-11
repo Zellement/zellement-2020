@@ -30,7 +30,7 @@ const item = {
 const ManagerPage = (props) => {
   return (
     <>
-      <SEO title="WordPress Developer & Front-end Developer Nottingham" />
+      <SEO title="Experienced Manager || Dan Farrow" />
       <motion.section
         variants={container}
         initial="hidden"

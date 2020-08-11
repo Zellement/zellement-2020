@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 const IndexPage = (props) => {
   return (
     <>
-      <SEO title="WordPress Developer & Front-end Developer Nottingham" />
+      <SEO title="WordPress Developer & Front-end Developer Nottingham || Dan Farrow" />
       <section className="relative min-h-screen overflow-x-hidden overflow-y-hidden bg-empress-300">
         <div className="absolute bottom-0 left-0 z-40 w-32 p-4 pb-10 mb-32 -ml-6 transform shadow-lg bg-yellow-polaroid xl:p-4 xl:pb-12 bg-radial-orange-300 rotate-10 md:left-auto md:right-0 md:-mr-4 md:mb-64 md:w-32 lg:m-0 lg:top-0 lg:bottom-auto xl:w-48 2xl:w-64">
           <Image

@@ -17,7 +17,7 @@ const IconAdobeXD = ( {className} ) => {
       >
         <path fillRule="evenodd" fill="#2E001E" d="M10 10h220v214H10z" />
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           fill="#FF2BC2"
           d="M0 0v234h240V0H0zm10 10h220v214H10V10z"
         />
