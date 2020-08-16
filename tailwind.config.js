@@ -17,6 +17,12 @@ module.exports = {
       none: "none",
       blur: "blur(20px)",
     },
+    filter: { // defaults to {}
+      'none': 'none',
+      'grayscale': 'grayscale(1)',
+      'invert': 'invert(1)',
+      'sepia': 'sepia(.5)',
+    },
     extend: {
       rotate: {
         '5': '5deg',
@@ -67,7 +73,10 @@ module.exports = {
         "3xl": "1800px",
       },
       spacing: {
+        '72': '18rem',
+        '84': '21rem',
         "96": "24rem",
+        "112": "28rem",
         "128": "32rem",
         "132": "36rem",
         "140": "40rem",
