@@ -22,10 +22,10 @@ const item = {
   },
 }
 
-const FourOhFourPage = (props) => {
+const ThanksPage = (props) => {
   return (
     <>
-      <SEO title="404 || Dan Farrow" />
+      <SEO title="Thanks! || Dan Farrow" />
       <motion.section
         variants={container}
         initial="hidden"
@@ -39,10 +39,10 @@ const FourOhFourPage = (props) => {
             </Link>{" "}
             &raquo; 404
           </p>
-          <h1 className="mb-8 text-5xl text-grey-light">404.</h1>
+          <h1 className="mb-8 text-5xl text-grey-light">Thanks!</h1>
 
           <p className="max-w-3xl py-3 text-lg">
-            Sorry! You've reached a dead-end!
+            Thank you for getting in touch. I'll get right back to you.
           </p>
 
         </motion.div>
@@ -51,4 +51,4 @@ const FourOhFourPage = (props) => {
   )
 }
 
-export default FourOhFourPage
+export default ThanksPage

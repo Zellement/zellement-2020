@@ -5,7 +5,6 @@ import { motion } from "framer-motion"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
-import { FaRegMeh } from "react-icons/fa"
 
 const duration = 0.35
 
@@ -257,7 +256,7 @@ const Page = (props) => {
             </a>{" "}
             movement.
           </p>
-          
+{/*           
 
           <h2 className="mt-8 mb-4 text-3xl text-grey-light">Warhammer 40k</h2>
 
@@ -267,7 +266,7 @@ const Page = (props) => {
           <Img
             className="max-w-3xl shadow-lg w-100"
             fluid={props.data.batmanOne.childImageSharp.fluid}
-          />
+          /> */}
 
         </motion.div>
       </motion.section>

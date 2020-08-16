@@ -9,19 +9,19 @@ const IndexPage = (props) => {
     <>
       <SEO title="WordPress Developer & Front-end Developer Nottingham || Dan Farrow" />
       <section className="relative min-h-screen overflow-x-hidden overflow-y-hidden bg-empress-300">
-        <div className="absolute bottom-0 left-0 z-40 w-32 p-4 pb-10 mb-32 -ml-6 transform shadow-lg bg-yellow-polaroid xl:p-4 xl:pb-12 bg-radial-orange-300 rotate-10 md:left-auto md:right-0 md:-mr-4 md:mb-64 md:w-32 lg:m-0 lg:top-0 lg:bottom-auto xl:w-48 2xl:w-64">
+        <div className="absolute bottom-0 left-0 z-20 w-32 p-4 pb-10 mb-32 -ml-6 transform shadow-lg bg-yellow-polaroid xl:p-4 xl:pb-12 bg-radial-orange-300 rotate-10 md:left-auto md:right-0 md:-mr-4 md:mb-64 md:w-32 lg:m-0 lg:top-0 lg:bottom-auto xl:w-48 2xl:w-64">
           <Image
             fluid={props.data.meFive.childImageSharp.fluid}
             backgroundColor={`#040e18`}
           />
         </div>
-        <div className="absolute bottom-0 right-0 z-40 w-32 p-4 pb-10 mb-40 -mr-2 transform shadow-lg bg-yellow-polaroid xl:p-4 xl:pb-12 bg-radial-orange-300 -rotate-10 md:mb-32 lg:m-0 lg:bottom-0 lg:mb-40 xl:w-40 xl:mb-48 2xl:w-56 2xl:mb-56">
+        <div className="absolute bottom-0 right-0 z-20 w-32 p-4 pb-10 mb-40 -mr-2 transform shadow-lg bg-yellow-polaroid xl:p-4 xl:pb-12 bg-radial-orange-300 -rotate-10 md:mb-32 lg:m-0 lg:bottom-0 lg:mb-40 xl:w-40 xl:mb-48 2xl:w-56 2xl:mb-56">
           <Image
             fluid={props.data.meSazOne.childImageSharp.fluid}
             backgroundColor={`#040e18`}
           />
         </div>
-        <div className="absolute bottom-0 right-0 z-40 w-40 p-4 pb-10 mb-2 -mr-2 transform shadow-lg bg-yellow-polaroid xl:p-4 xl:pb-12 bg-radial-orange-300 rotate-5 md:-mb-4 lg:m-0 lg:bottom-0 xl:w-48 2xl:w-64">
+        <div className="absolute bottom-0 right-0 z-20 w-40 p-4 pb-10 mb-2 -mr-2 transform shadow-lg bg-yellow-polaroid xl:p-4 xl:pb-12 bg-radial-orange-300 rotate-5 md:-mb-4 lg:m-0 lg:bottom-0 xl:w-48 2xl:w-64">
           <Image
             fluid={props.data.meTwo.childImageSharp.fluid}
             backgroundColor={`#040e18`}

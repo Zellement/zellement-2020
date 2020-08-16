@@ -3,12 +3,12 @@ Navigation
 -------------------------- */
 
 .navigation-wrapper {
-  @apply fixed top-0 left-0 z-10 z-30 w-full h-screen p-6 text-lg tracking-widest transition-all duration-100 ease-in bg-opacity-75 backdrop-blur text-empress-900;
+  @apply fixed top-0 left-0 z-10 z-30 w-full h-screen p-6 text-lg tracking-widest transition-all duration-100 ease-in bg-empress-100 bg-opacity-75 backdrop-blur text-empress-900;
 
   transform: translateY(-100%);
 
   @screen md {
-    @apply static top-auto left-auto block w-full h-auto p-0 bg-transparent;
+    @apply static top-auto left-auto block w-full h-auto p-0 bg-transparent backdrop-none;
 
     transform: translateY(0);
   }

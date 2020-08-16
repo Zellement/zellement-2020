@@ -81,6 +81,16 @@ const Nav = class extends React.Component {
                   Hobbyist
                 </Link>
               </li>
+              <li>
+                <Link
+                  className="navigation-wrapper__link"
+                  onClick={this.toggleMenu}
+                  activeClassName="is-active"
+                  to="/contact/"
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
             <Social />
           </div>
