@@ -28,7 +28,9 @@ const item = {
 const Page = (props) => {
   return (
     <>
-      <SEO title="Hobbyist || Dan Farrow" />
+      <SEO
+        title="Hobbyist"
+      />
       <motion.section
         variants={container}
         initial="hidden"
@@ -113,8 +115,8 @@ const Page = (props) => {
 
           <p className="max-w-xl py-3 my-4">
             I moved to Nottingham circa 2007, adopted the city as my home and
-            have since embraced Nottingham Forest. I had my first season card for the
-            2018/19 season, and continue to renew it each season.
+            have since embraced Nottingham Forest. I had my first season card
+            for the 2018/19 season, and continue to renew it each season.
           </p>
 
           <div className="relative">
@@ -188,7 +190,6 @@ const Page = (props) => {
           </p>
 
           <div className="relative">
-
             <p className="z-30 block max-w-lg p-8 mx-auto border-l-2 border-orange-400 shadow-lg bg-empress-700 bg-gradient-l-empress-600 font-heading text-empress-100 lg:absolute lg:bottom-0 lg:right-0 lg:max-w-xs lg:text-xl xl:text-2xl lg:mb-4">
               My personal best for deadlift is 180kg, and for bench press is
               just over 100kg.
@@ -256,7 +257,7 @@ const Page = (props) => {
             </a>{" "}
             movement.
           </p>
-{/*           
+          {/*           
 
           <h2 className="mt-8 mb-4 text-3xl text-grey-light">Warhammer 40k</h2>
 
@@ -267,7 +268,6 @@ const Page = (props) => {
             className="max-w-3xl shadow-lg w-100"
             fluid={props.data.batmanOne.childImageSharp.fluid}
           /> */}
-
         </motion.div>
       </motion.section>
     </>

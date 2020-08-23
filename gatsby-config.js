@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Zellement.com",
+    title: "Dan Farrow | Zellement.com",
     titleTemplate: "%s · Web Developer Nottingham",
     author: `@Zellement`,
     description:
-      "Online presence of Dan Farrow - Web Designer & Web Developer",
-    url: "https://www.zellement.com", // No trailing slash allowed!
+      "Nottingham based Freelance WordPress / Front-end Developer & Web Designer",
+    url: "https://www.zellement.com",
     twitterUsername: "@Zellement",
   },
   plugins: [
@@ -28,6 +28,7 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

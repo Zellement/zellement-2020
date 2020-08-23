@@ -32,10 +32,13 @@ const item = {
   },
 }
 
-const IndexPage = (props) => {
+const DesignerPage = (props) => {
   return (
     <>
-      <SEO title="Web Designer Nottingham || Dan Farrow" />
+      <SEO
+        description="Dan Farrow, freelance web designer in Nottingham creating bespoke, responsive websites for small businesses."
+        title="Freelance Web Designer Nottingham"
+      />
       <motion.section
         variants={container}
         initial="hidden"
@@ -412,7 +415,7 @@ Effico
   )
 }
 
-export default IndexPage
+export default DesignerPage
 
 export const fluidImage = graphql`
   fragment fluidImageDesigner on File {

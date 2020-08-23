@@ -28,7 +28,7 @@ const item = {
 const IndexPage = (props) => {
   return (
     <>
-      <SEO title="Musician || Dan Farrow" />
+      <SEO title="Musician" />
       <motion.section
         variants={container}
         initial="hidden"
@@ -134,7 +134,7 @@ const IndexPage = (props) => {
 
           <div className="relative">
             <Img
-              className="shadow-lg max-w-sm mr-auto w-100"
+              className="max-w-sm mr-auto shadow-lg w-100"
               fluid={props.data.ropewalkOne.childImageSharp.fluid}
             />
 
@@ -144,7 +144,7 @@ const IndexPage = (props) => {
             </p>
 
             <Img
-              className="shadow-lg max-w-sm mb-4 ml-auto w-100 lg:-mt-10 xl:-mt-56"
+              className="max-w-sm mb-4 ml-auto shadow-lg w-100 lg:-mt-10 xl:-mt-56"
               fluid={props.data.ropewalkTwo.childImageSharp.fluid}
             />
           </div>
@@ -165,7 +165,7 @@ const IndexPage = (props) => {
 
           <div className="relative">
             <Img
-              className="shadow-lg max-w-sm mx-auto w-100"
+              className="max-w-sm mx-auto shadow-lg w-100"
               fluid={props.data.violinOne.childImageSharp.fluid}
             />
 

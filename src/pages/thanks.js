@@ -25,12 +25,12 @@ const item = {
 const ThanksPage = (props) => {
   return (
     <>
-      <SEO title="Thanks! || Dan Farrow" />
+      <SEO title="Thanks!" />
       <motion.section
         variants={container}
         initial="hidden"
         animate="visible"
-        className="p-8 bg-empress-200 bg-gradient-r-empress-100 lg:p-16 min-h-screen"
+        className="min-h-screen p-8 bg-empress-200 bg-gradient-r-empress-100 lg:p-16"
       >
         <motion.div variants={item} transition="easeInOut" className="max-w-lg">
           <p className="text-xs tracking-widest uppercase">

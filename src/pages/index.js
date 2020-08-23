@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 const IndexPage = (props) => {
   return (
     <>
-      <SEO title="WordPress Developer & Front-end Developer Nottingham || Dan Farrow" />
+      <SEO title="Freelance WordPress Developer & Web Designer Nottingham" />
       <section className="relative min-h-screen overflow-x-hidden overflow-y-hidden bg-empress-300">
         <div className="absolute bottom-0 left-0 z-20 w-32 p-2 pb-4 mb-32 -ml-12 transform shadow-lg bg-yellow-polaroid xl:p-4 xl:pb-12 bg-radial-orange-300 rotate-10 md:left-auto md:right-0 md:-mr-4 md:mb-64 md:w-32 lg:m-0 lg:top-1/2 lg:-translate-y-96 lg:bottom-auto xl:w-48">
           <Image
@@ -16,7 +16,7 @@ const IndexPage = (props) => {
             className="filter-sepia"
           />
         </div>
-        <div className="absolute bottom-0 right-0 z-20 w-32 p-2 pb-4 mb-40 -mr-10 transform shadow-lg bg-yellow-polaroid xl:p-4 xl:pb-12 bg-radial-orange-300 -rotate-10 md:mb-32 lg:m-0 lg:bottom-1/2 lg:m-0 lg:translate-y-84 xl:w-40 xl:mb-48">
+        <div className="absolute bottom-0 right-0 z-20 w-32 p-2 pb-4 mb-40 -mr-10 transform shadow-lg bg-yellow-polaroid xl:p-4 xl:pb-12 bg-radial-orange-300 -rotate-10 md:mb-32 lg:m-0 lg:bottom-1/2 lg:translate-y-84 xl:w-40 xl:mb-48">
           <Image
             fluid={props.data.meSazOne.childImageSharp.fluid}
             backgroundColor={`#040e18`}

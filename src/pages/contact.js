@@ -27,7 +27,7 @@ const item = {
 const ContactPage = (props) => {
   return (
     <>
-      <SEO title="Contact || Dan Farrow" />
+      <SEO title="Contact" />
       <motion.section
         variants={container}
         initial="hidden"
