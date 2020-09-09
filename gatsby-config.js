@@ -5,7 +5,7 @@ module.exports = {
     author: `@Zellement`,
     description:
       "Nottingham based Freelance WordPress / Front-end Developer & Web Designer",
-    url: "https://www.zellement.com",
+    siteUrl: "https://www.zellement.com",
     twitterUsername: "@Zellement",
   },
   plugins: [
