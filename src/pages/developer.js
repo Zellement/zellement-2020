@@ -111,6 +111,26 @@ const DeveloperPage = () => {
           className="max-w-lg pb-8 mb-4 border-b border-orange-600"
         >
           <Project
+            devTitle="Birmingham Parents Support Group"
+            devURL="https://www.birminghamparentssupport.com"
+            devDisplayURL="www.birminghamparentssupport.com"
+            devDescription="With a basic CMS (Netlify CMS) so that the client can edit and add stories as and when they want, this simple website is for a volunteering group that supports families and their LGBT+ loved ones."
+            date="December 2020"
+          >
+            <IconGatsbyJS />
+            <IconNetlifyCMS />
+            <IconGraphQL />
+            <IconTailwind />
+            <IconNetlify />
+          </Project>
+        </motion.div>
+
+        <motion.div
+          variants={item}
+          transition="easeInOut"
+          className="max-w-lg pb-8 mb-4 border-b border-orange-600"
+        >
+          <Project
             devTitle="Effico Ltd"
             devURL="https://www.effico.ltd"
             devDisplayURL="www.effico.ltd"
@@ -177,7 +197,7 @@ const DeveloperPage = () => {
             devTitle="Sheringham Shantymen"
             devURL="https://www.shantymen.com"
             devDisplayURL="www.shantymen.com"
-            devDescription="Built using GatsbyJS and the accessible Netlify CMS, this small site was developed for a voluntary shanty group, dedicated to raising money for the RNLI."
+            devDescription="Built using Gatsby and the accessible Netlify CMS, this small site was developed for a voluntary shanty group, dedicated to raising money for the RNLI."
             date="April 2019"
           >
             <IconDesigner />
