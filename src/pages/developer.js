@@ -117,6 +117,7 @@ const DeveloperPage = () => {
             devDescription="With a basic CMS (Netlify CMS) so that the client can edit and add stories as and when they want, this simple website is for a volunteering group that supports families and their LGBT+ loved ones."
             date="December 2020"
           >
+            <IconDesigner />
             <IconGatsbyJS />
             <IconNetlifyCMS />
             <IconGraphQL />

@@ -71,6 +71,57 @@ const DesignerPage = (props) => {
         </motion.div>
 
         {/* 
+          --------------------------------------------------------
+        BPSG
+          --------------------------------------------------------
+        */}
+
+        <motion.div
+          variants={item}
+          transition="easeInOut"
+          className="max-w-lg pb-16 mb-12 border-b border-orange-600"
+        >
+          <Project
+            devTitle="Birmingham Parents Support Group"
+            devURL="https://www.birminghamparentssupport.com/"
+            devDisplayURL="www.birminghamparentssupport.com"
+            date="December 2020"
+            devDescription="BPSG's web presence had been lost to the ether over time, and they needed a brand new website to help families coping with change. This site was designed to help those families feel comfortable contacting and opening up to BPSG."
+          >
+            <IconDeveloper />
+            <IconFigma />
+          </Project>
+
+          <div className="relative max-w-md mt-8 absolute-image-wrapper">
+            <Img
+              className="top-0 left-0 z-0 shadow-lg absolute-image"
+              fluid={props.data.bpsgBefore.childImageSharp.fluid}
+            />
+
+            <p className="absolute right-0 z-0 p-3 text-orange-100 bg-orange-600">
+              Original
+            </p>
+
+            <ImageShowHide>
+              <Img
+                className="top-0 left-0 z-10 absolute-image"
+                fluid={props.data.bpsgAfter.childImageSharp.fluid}
+              />
+
+              <p className="absolute right-0 z-10 p-3 text-orange-100 bg-orange-500">
+                New
+              </p>
+            </ImageShowHide>
+          </div>
+
+          <Img
+            className="mx-auto mt-4 shadow-lg md:mr-0 md:ml-auto md:max-w-xl lg:max-w-sm xl:max-w-md"
+            fluid={props.data.bpsgOne.childImageSharp.fluid}
+          />
+          
+        </motion.div>
+
+        {/* 
   --------------------------------------------------------
 Effico
   --------------------------------------------------------
@@ -429,6 +480,15 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
+    bpsgBefore: file(relativePath: { eq: "designs/bpsg/before.jpg" }) {
+      ...fluidImageDesigner
+    }
+    bpsgAfter: file(relativePath: { eq: "designs/bpsg/after.jpg" }) {
+      ...fluidImageDesigner
+    }
+    bpsgOne: file(relativePath: { eq: "designs/bpsg/01.jpg" }) {
+      ...fluidImageDesigner
+    }
     efficoOne: file(relativePath: { eq: "designs/effico/01.jpg" }) {
       ...fluidImageDesigner
     }
