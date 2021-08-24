@@ -8,6 +8,7 @@ import Project from "../components/project.js"
 
 import IconDesigner from "../components/icons/designer.js"
 import IconGatsbyJS from "../components/icons/gatsbyjs.js"
+import IconSnipcart from "../components/icons/snipcart.js"
 import IconGraphQL from "../components/icons/graphql.js"
 import IconSass from "../components/icons/sass.js"
 import IconNetlify from "../components/icons/netlify.js"
@@ -61,7 +62,7 @@ const DeveloperPage = () => {
           </p>
           <h1 className="mb-8 text-5xl text-grey-light">Developer.</h1>
           <motion.div className="flex flex-col md:flex-row">
-            <div className="md:w-2/3 xl:w-3/4 md:pr-8">
+            <div className="md:w-3/5 md:pr-8">
               <p className="py-3 text-lg">
                 I have over {new Date().getFullYear() - 2007} years of
                 experience working in a leading digital marketing and web design
@@ -75,7 +76,7 @@ const DeveloperPage = () => {
                 such as GatsbyJS to deliver headless CMS websites.
               </p>
             </div>
-            <div className="p-4 text-right bg-gradient-r-empress-100 md:bg-none md:border-l md:border-empress-200 md:w-1/3 md:text-center xl:w-1/4">
+            <div className="p-4 text-right bg-gradient-r-empress-100 md:bg-none md:border-l md:border-empress-200 md:w-2/5 md:text-center">
               <p className="text-xs tracking-widest uppercase">
                 Experience With
               </p>
@@ -87,6 +88,7 @@ const DeveloperPage = () => {
                 <IconDatoCMS className="m-2" />
                 <IconPrismic className="m-2" />
                 <IconNetlifyCMS className="m-2" />
+                <IconSnipcart />
 
                 <IconGraphQL className="m-2" />
 
@@ -103,6 +105,27 @@ const DeveloperPage = () => {
           <h2 className="mt-4 mb-4 text-3xl text-grey-light">
             Development Work
           </h2>
+        </motion.div>
+
+        <motion.div
+          variants={item}
+          transition="easeInOut"
+          className="max-w-lg pb-8 mb-4 border-b border-orange-600"
+        >
+          <Project
+            devTitle="Zuckermaus Bakery"
+            devURL="https://www.zuckermausbakery.com"
+            devDisplayURL="www.zuckermausbakery.com"
+            devDescription="An update from a theme based BigCartel website into a fully bespoke e-commerce solution, allowing full control for the client over their products and orders."
+            date="August 2021"
+          >
+            <IconDesigner />
+            <IconGatsbyJS />
+            <IconSnipcart />
+            <IconGraphQL />
+            <IconTailwind />
+            <IconNetlify />
+          </Project>
         </motion.div>
 
         <motion.div

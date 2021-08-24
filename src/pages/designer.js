@@ -72,6 +72,35 @@ const DesignerPage = (props) => {
 
         {/* 
           --------------------------------------------------------
+        Zuckermaus
+          --------------------------------------------------------
+        */}
+
+        <motion.div
+          variants={item}
+          transition="easeInOut"
+          className="max-w-lg pb-16 mb-12 border-b border-orange-600"
+        >
+          <Project
+            devTitle="Zuckermaus Bakery"
+            devURL="https://www.zuckermausbakery.com/"
+            devDisplayURL="www.zuckermausbakery.com"
+            date="August 2021"
+            devDescription="Zuckermaus Bakery were running a theme template on BigCartel, and wanted to upgrade their look and feel to a modern, individual design."
+          >
+            <IconDeveloper />
+            <IconFigma />
+          </Project>
+
+          <Img
+            className="mx-auto mt-4 shadow-lg md:mr-0 "
+            fluid={props.data.zuckermausOne.childImageSharp.fluid}
+          />
+          
+        </motion.div>
+
+        {/* 
+          --------------------------------------------------------
         BPSG
           --------------------------------------------------------
         */}
@@ -551,6 +580,9 @@ export const pageQuery = graphql`
       ...fluidImageDesigner
     }
     arcadiaTwo: file(relativePath: { eq: "designs/arcadia/02.jpg" }) {
+      ...fluidImageDesigner
+    }
+    zuckermausOne: file(relativePath: { eq: "designs/zuckermaus/01.jpg" }) {
       ...fluidImageDesigner
     }
     tbaaOne: file(relativePath: { eq: "designs/tbaa/01.jpg" }) {
