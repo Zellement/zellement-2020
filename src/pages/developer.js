@@ -121,6 +121,7 @@ const DeveloperPage = () => {
           >
             <IconDesigner />
             <IconGatsbyJS />
+            <IconDatoCMS />
             <IconSnipcart />
             <IconGraphQL />
             <IconTailwind />
