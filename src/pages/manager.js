@@ -150,7 +150,7 @@ const ManagerPage = (props) => {
                     First managerial role
                   </span>
                   <span className="block text-sm">
-                    Became Head of Web Design overseeing 2 additonal people.
+                    Became Head of Web Design overseeing 2 additional people.
                   </span>
                 </span>
               </div>
