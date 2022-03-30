@@ -18,6 +18,7 @@ import IconTimber from "../components/icons/timber.js"
 import IconWordPress from "../components/icons/wordpress.js"
 import IconPrismic from "../components/icons/prismic.js"
 import IconDeployHQ from "../components/icons/deployhq.js"
+import IconNextJS from "../components/icons/nextjs.js"
 import IconDatoCMS from "../components/icons/datocms.js"
 import IconcPanel from "../components/icons/cpanel.js"
 
@@ -73,7 +74,7 @@ const DeveloperPage = () => {
               <p className="pb-3 text-md">
                 In recent years, I have worked predominantly as a WordPress
                 developer, but I have recently been using newer technologies
-                such as GatsbyJS to deliver headless CMS websites.
+                such as GatsbyJS and NextJS to deliver headless CMS websites.
               </p>
             </div>
             <div className="p-4 text-right bg-gradient-r-empress-100 md:bg-none md:border-l md:border-empress-200 md:w-2/5 md:text-center">
@@ -82,29 +83,83 @@ const DeveloperPage = () => {
               </p>
 
               <div className="flex flex-row-reverse flex-wrap mt-4 md:flex-row md:justify-center">
-                <IconGatsbyJS className="m-2" />
-                <IconWordPress className="m-2" />
+                <IconGatsbyJS className="m-1" />
+                <IconNextJS className="m-1" />
+                <IconWordPress className="m-1" />
 
-                <IconDatoCMS className="m-2" />
-                <IconPrismic className="m-2" />
-                <IconNetlifyCMS className="m-2" />
+                <IconDatoCMS className="m-1" />
+                <IconPrismic className="m-1" />
+                <IconNetlifyCMS className="m-1" />
                 <IconSnipcart />
 
-                <IconGraphQL className="m-2" />
+                <IconGraphQL className="m-1" />
 
-                <IconTailwind className="m-2" />
-                <IconSass className="m-2" />
-                <IconTimber className="m-2" />
-                <IconDeployHQ className="m-2" />
+                <IconTailwind className="m-1" />
+                <IconSass className="m-1" />
+                <IconTimber className="m-1" />
+                <IconDeployHQ className="m-1" />
 
-                <IconNetlify className="m-2" />
-                <IconcPanel className="m-2" />
+                <IconNetlify className="m-1" />
+                <IconcPanel className="m-1" />
               </div>
             </div>
           </motion.div>
           <h2 className="mt-4 mb-4 text-3xl text-grey-light">
             Development Work
           </h2>
+        </motion.div>
+
+<motion.div
+  variants={item}
+  transition="easeInOut"
+  className="max-w-lg pb-8 mb-4 border-b border-orange-600"
+>
+  <Project
+    devTitle="Club Mexicana"
+    devURL="#"
+    devDisplayURL="Website not yet live"
+    devDescription="Club Mexicana offer vegan food from a few of their establishments, and wanted something a bit more funky than their competitors. This website was done by Built With Understanding Ltd and as such they retain all rights."
+    date="Early 2022"
+  >
+    <IconNextJS />
+    <IconTailwind />
+  </Project>
+</motion.div>
+
+
+        <motion.div
+          variants={item}
+          transition="easeInOut"
+          className="max-w-lg pb-8 mb-4 border-b border-orange-600"
+        >
+          <Project
+            devTitle="Rinse FM"
+            devURL="#"
+            devDisplayURL="Website not yet live"
+            devDescription="Rinse FM wanted a website that reflected their app and a more modern approach. I helped build this website, doing some core fundamental component design and build work. This website was done by Built With Understanding Ltd and as such they retain all rights."
+            date="Early 2022"
+          >
+            <IconNextJS />
+            <IconTailwind />
+          </Project>
+        </motion.div>
+
+
+        <motion.div
+          variants={item}
+          transition="easeInOut"
+          className="max-w-lg pb-8 mb-4 border-b border-orange-600"
+        >
+          <Project
+            devTitle="Pieminister"
+            devURL="#"
+            devDisplayURL="Website not yet live"
+            devDescription="Developing the Pieminister website into a more modern solution using modern technologies; I have helped develop this from a small skeleton site into a fully fledged website. This website was done by Built With Understanding Ltd and as such they retain all rights."
+            date="Early 2022"
+          >
+            <IconNextJS />
+            <IconTailwind />
+          </Project>
         </motion.div>
 
         <motion.div
